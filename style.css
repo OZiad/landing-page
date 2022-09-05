@@ -20,7 +20,6 @@ ul {
     margin: 0;
     padding: 50px;
     gap: 55px;
-
 }
 
 .left {
@@ -36,14 +35,43 @@ ul {
 
 .content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    gap: 70px;
     background-color: #1f2937;
 }
 
 .hero-image {
-    width: 100px;
-    height: 100px;
+    width: 600px;
     background: url(http://goo.gl/vyAs27) no-repeat scroll 0 0;
     border-color: gray;
+    padding-bottom: 60px;
 }
 
+.hero {
+    display: flex;
+    flex-direction: column;
+    width: 580px;
+    padding-left: 100px;
+    color: rgb(255, 255, 255);
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-subtext {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.signup {
+    background: hsl(219, 94%, 58%);
+    border: 1px solid hsl(219, 94%, 58%);
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 200px;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
