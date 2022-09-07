@@ -19,7 +19,10 @@ body {
     gap: 70px;
     background-color: #1f2937;
 }
-
+a{
+    text-decoration: none;
+    color: white;
+}
 ul {
     color: rgb(255, 255, 255);
     display: flex;
