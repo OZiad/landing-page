@@ -19,10 +19,16 @@ body {
     gap: 70px;
     background-color: #1f2937;
 }
-a{
+
+a {
     text-decoration: none;
     color: white;
 }
+a:hover {
+    color: rgb(219, 154, 16);
+  }
+
+
 ul {
     color: rgb(255, 255, 255);
     display: flex;
@@ -60,6 +66,7 @@ ul {
 }
 
 .text {
+    color: rgb(219, 154, 16);
     font-size: 48px;
     font-weight: 900;
 }
@@ -79,7 +86,9 @@ ul {
     font-size: 25px;
     font-weight: 600;
 }
-
+.signup:hover {
+    color: rgb(219, 154, 16);
+}
 .info {
     display: flex;
     flex-direction: column;
