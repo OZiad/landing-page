@@ -56,12 +56,12 @@ ul {
     color: rgb(255, 255, 255);
 }
 
-.hero-text {
+.text {
     font-size: 48px;
     font-weight: 900;
 }
 
-.hero-subtext {
+.subtext {
     font-size: 25px;
     font-weight: 300;
 }
@@ -132,4 +132,25 @@ ul {
     align-self: flex-end;
     font-size: 25px;
 
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+
+}
+
+.modal {
+    display: flex;
+    background-color: #1f2937;
+    flex: 1;
+    justify-content: space-between;
+    padding: 80px 120px;
+
+}
+
+.join {
+    display: flex;
+    flex-direction: column;
+    color: white;
 }
